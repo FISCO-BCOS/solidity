@@ -679,7 +679,7 @@ Compiler Features:
  * Static Analyzer: Do not warn about unused variables or state mutability for functions with an empty body.
  * Type Checker: Add an additional reason to be displayed when type conversion fails.
  * Yul: Support object access via ``datasize``, ``dataoffset`` and ``datacopy`` in standalone assembly mode.
-
+ * Feature: Add guomi.
 
 Bugfixes:
  * Standard JSON Interface: Report specific error message for json input errors instead of internal compiler error.
