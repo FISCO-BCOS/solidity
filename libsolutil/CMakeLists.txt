@@ -37,8 +37,8 @@ set(sources
 if(BUILD_GM)
 	aux_source_directory(./sm3 sources)
 	include_directories(./sm3)
-	list(REMOVE_ITEM sources ${CMAKE_CURRENT_SOURCE_DIR}/Keccak256.cpp)
-	list(APPEND sources ${CMAKE_CURRENT_SOURCE_DIR}/GmHash.cpp)
+	list(REMOVE_ITEM sources Keccak256.cpp)
+	list(APPEND sources GmHash.cpp)
 endif()
 
 add_library(solutil ${sources})

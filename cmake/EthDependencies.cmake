@@ -26,9 +26,9 @@ set(ETH_SCRIPTS_DIR ${ETH_CMAKE_DIR}/scripts)
 set(Boost_USE_MULTITHREADED ON)
 option(Boost_USE_STATIC_LIBS "Link Boost statically" ON)
 
-set(BOOST_COMPONENTS "filesystem;unit_test_framework;program_options;system")
+# set(BOOST_COMPONENTS "filesystem;unit_test_framework;program_options;system")
 
-find_package(Boost 1.65.0 QUIET REQUIRED COMPONENTS ${BOOST_COMPONENTS})
+# find_package(Boost 1.65.0 QUIET REQUIRED COMPONENTS ${BOOST_COMPONENTS})
 
 # If cmake is older than boost and boost is older than 1.70,
 # find_package does not define imported targets, so we have to
