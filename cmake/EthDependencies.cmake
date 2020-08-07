@@ -38,6 +38,6 @@ set(ETH_SCRIPTS_DIR ${ETH_CMAKE_DIR}/scripts)
 set(Boost_USE_MULTITHREADED ON)
 option(Boost_USE_STATIC_LIBS "Link Boost statically" ON)
 
-find_package(Boost 1.54.0 QUIET REQUIRED COMPONENTS regex filesystem unit_test_framework program_options system)
+#find_package(Boost 1.54.0 QUIET REQUIRED COMPONENTS regex filesystem unit_test_framework program_options system)
 
 eth_show_dependency(Boost boost)
